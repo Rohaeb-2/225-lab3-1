@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/alir2'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/Rohaeb-2/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('roseaw-225')                                             // <------change this
+        KUBECONFIG = credentials('alir2-225')                                             // <------change this
     }
 
     stages {
